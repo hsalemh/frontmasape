@@ -6,3 +6,23 @@
 .hi{
     background: rgb(109, 109, 223);
 }
+
+#bg_color, .btn-secondary{
+
+  background: rgb(65,105,225) !important;
+}
+body{
+    background-color:  #F5F5F5 !important;
+}
+#row{
+  margin: auto;
+}
+
+#row .card{
+  margin: 40px;
+}
+#row_change_pwd{
+  margin-left: 4%;
+
+}
+
