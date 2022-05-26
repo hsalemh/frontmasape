@@ -10,7 +10,9 @@ import { ConnexionComponent } from './connexion/connexion.component';
 
 import { SpaceclientComponent } from './spaceclient/spaceclient.component';
 
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component'
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { HttpClientModule } from '@angular/common/http'
     SpaceclientComponent,
 
     QsnComponent,
-    ConnexionComponent
+    ConnexionComponent,
+    HeaderComponent,
+    FooterComponent
 // 7c9a1b3f8cfcd06c8d974c78df8cd72d9e20ac1d
   ],
   imports: [
