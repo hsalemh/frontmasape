@@ -15,6 +15,9 @@ import {SpaceclientComponent} from './spaceclient/spaceclient.component';
 
 import {HeaderComponent} from './header/header.component';
 import {FooterComponent} from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { AideComponent } from './aide/aide.component';
+import { PanierComponent } from './panier/panier.component';
 
 
 @NgModule({
@@ -28,6 +31,9 @@ import {FooterComponent} from './footer/footer.component';
     NosvetementComponent,
     HeaderComponent,
     FooterComponent,
+    HomeComponent,
+    AideComponent,
+    PanierComponent,
 // 7c9a1b3f8cfcd06c8d974c78df8cd72d9e20ac1d
 
   ],
