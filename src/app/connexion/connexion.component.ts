@@ -13,6 +13,7 @@ export class ConnexionComponent implements OnInit {
   constructor(public servService: ServService, private route : Router, private http: HttpClient) { }
 
   user: any;
+  visible = true;
 
   add(val:any){
     console.log(val);
@@ -22,13 +23,21 @@ export class ConnexionComponent implements OnInit {
   }
     ngOnInit(): void {
     }
+
+    showHide(){
+      if(this.visible==true){
+        this.visible=false;
+      }else{
+        this.visible=true;
+      }
+    }
   
     connexion(val : any){
       console.log('contenu de va ', val)
       this.http.post('http://localhost:8086/connexion', val).subscribe({
         next: (data) => {
           this.user = data;
-          if(this.user.login != null) {
+          if(this.user.login != null && this.user.password != null) {
             this.route.navigateByUrl('qsn');
           }else{
             console.log('identifant ou le mot est incorrect')
