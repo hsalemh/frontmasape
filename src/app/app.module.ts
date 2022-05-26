@@ -11,11 +11,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { NosvetementComponent } from './nosvetement/nosvetement.component'
 
 
+
 import { SpaceclientComponent } from './spaceclient/spaceclient.component';
 
 
 import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component'
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -28,13 +29,11 @@ import { FooterComponent } from './footer/footer.component'
 
     QsnComponent,
     ConnexionComponent,
-<<<<<<< HEAD
-    NosvetementComponent
-=======
+    NosvetementComponent,
     HeaderComponent,
-    FooterComponent
+FooterComponent,
 // 7c9a1b3f8cfcd06c8d974c78df8cd72d9e20ac1d
->>>>>>> ac6a86e37023e3bc0ec3b8b2bd4557ddc413bd2d
+
   ],
   imports: [
     BrowserModule,
