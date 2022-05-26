@@ -29,9 +29,9 @@ export class ConnexionComponent implements OnInit {
         next: (data) => {
           this.user = data;
           if(this.user.login != null) {
-            this.route.navigateByUrl('QSN');
+            this.route.navigateByUrl('qsn');
           }else{
-            console.log('identifant ou le mot est inc')
+            console.log('identifant ou le mot est incorrect')
           }
          },
         error: (err) => {console.log(err);}
