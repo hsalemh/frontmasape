@@ -4,25 +4,39 @@
 }
 
 .hi{
-    background: rgb(109, 109, 223);
+    background: #6d6ddf;
+}
+.card1{
+
+    width: 350px;
+
+    height: 15px;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    margin-right: 80px;
+    text-align: center  !important;
+    
+}
+.pro {
+    width: 20%;
+    min-width: 250px;
+    padding: 10px 1px;
+    border: 1px solid #6d6ddf;
+    border: radius 25px; 
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0, 0,2);
+    margin: 15px 0;
+    transition: 0,2s ease;
+    
 }
 
-#bg_color, .btn-secondary{
-
-  background: rgb(65,105,225) !important;
+.pro img{
+    width: 200%;
+    border-radius: 20px;
 }
-body{
-    background-color:  #F5F5F5 !important;
+h1{
+    text-align: center  !important;
 }
-#row{
-  margin: auto;
-}
-
-#row .card{
-  margin: 40px;
-}
-#row_change_pwd{
-  margin-left: 4%;
-
-}
-
