@@ -1,58 +1,68 @@
-
 <br><br><br><br><br>
-<div class="" >
-    <div class="container-fluid" style="margin: auto ; width: 60%;">
+<div class="margin-top:5px ">
+    <div class="container-fluid" style="margin: auto ; width: 70%;padding-block-end: 5px;">
         <form #membre="ngForm" (ngSubmit)="connexion(membre.value)">
-        <div >
-            <div class="card p-1 z-depth-3" >
-                <br>
-                <div class="card-header" style="color:white ; background-color: #4169E1; text-align: center;"><br><h1>Connexion</h1><br></div>
-               
-                <div class="card-body" style=" box-shadow: 0 150px 50px 0 rgba(240, 12, 12, 0);">
-                    
-                    <div class="md-form">
-                        <br><br><br>
-                        <input style="background-color:#D9D9D9; height: 75px" type="text"  class="form-control" ngModel="" placeholder="Entrez votre < Adresse Mail > " aria-label="login" aria-describedby="basic-addon1">
-                    </div>
-                        <br>
-                 <div class="md-form">
+            <div>
+                <div class="card p-1 z-depth-3">
                     <br>
-                    <input style="background-color:#D9D9D9; height: 75px;" type="text"  class="form-control" ngModel="" placeholder="Entrez votre < Mot de Passe > " aria-label="password" aria-describedby="basic-addon2">
-                </div>
-                <br>
-                <div class="md-form text-center">
-                    <button style= height:75px;width:300px; type="submit" class="btn btn-primary btn-lg btn block">Valider</button>
-                  </div>
-                  <hr>
-                  <a style="color:#4169E1 ;" href="" >Adresse mail ou mot de passe oublié?</a>
-                    
-                </div>
+                    <div class="card-header" style="color:white ; background-color: #4169E1; text-align: center;"><br>
+                        <h1>Connexion</h1><br>
+                    </div>
+
+                    <div class="card-body" style=" box-shadow: 0 150px 50px 0 rgba(240, 12, 12, 0);">
+
+                        <div class="md-form">
+                            <br><br>
+                            <input style="background-color:#D9D9D9; height: 75px" type="text" class="form-control"
+                                ngModel="" placeholder="Entrez votre < Adresse Mail > " aria-label="login"
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <br>
+                        <div class="md-form">
+                            <br>
+                            <input style="background-color:#D9D9D9; height: 75px;" type="text" class="form-control"
+                                ngModel="" placeholder="Entrez votre < Mot de Passe > " aria-label="password"
+                                aria-describedby="basic-addon2">
+                        </div>
+                        <br>
+                        <div class="md-form text-center">
+                            <button style=height:75px;width:300px; type="submit"
+                                class="btn btn-primary btn-lg btn block"><h3>Valider</h3></button>
+                        </div>
+                        <hr>
+                        <a style="color:#4169E1 ;" href="">Adresse mail ou mot de passe oublié?</a>
+
+                    </div>
 
 
+                </div>
             </div>
-        </div>
         </form>
-        <br>
-        <div class="container-fluid" style="margin: auto ; width: 100%;">
-            <form #membre="ngForm" (ngSubmit)="connexion(membre.value)">  
-                <div>
-                    <div class="card p-1 z-depth-3">
-                        <div style="display: flex;">
-                            <p class="h3">Pas de compte ? Inscrivez vous ici :
-                                &nbsp; &nbsp; &nbsp; &nbsp;
-                           </p>
-                           <p style="margin-left: 115px ;">
-                            <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style= height:75px;width:300px;> 
-                                <h3>Inscription</h3>
-                                </a>
-                           </p>
+    </div>
+    <div class="container-fluid" style="width: 70%;padding-block-end: 60px;">
+        <form #membre="ngForm" (ngSubmit)="connexion(membre.value)">
+            <div class="card p-1 z-depth-3">
+                <div class="row justify-content-start">
+                    <div class="col-4 ">
+                        <p class="h4 ">Pas de compte ? Inscrivez vous ici:</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-4 md-form text-center">
+                        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"
+                            style= height:70px;width:300px>
+                            <h3>Inscription</h3>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end">
+                        <div class="col-4">
                         </div>
                     </div>
                 </div>
-            </form>
-        </div>
+            </div>
+
+        </form>
     </div>
 </div>
-    <br>
-   <br>
-   
+<br>
+<br>
