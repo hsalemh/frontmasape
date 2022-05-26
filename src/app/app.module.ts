@@ -7,13 +7,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QsnComponent } from './qsn/qsn.component';
 import { ConnexionComponent } from './connexion/connexion.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { NosvetementComponent } from './nosvetement/nosvetement.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     QsnComponent,
-    ConnexionComponent
+    ConnexionComponent,
+    NosvetementComponent
   ],
   imports: [
     BrowserModule,
