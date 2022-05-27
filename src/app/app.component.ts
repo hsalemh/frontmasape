@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'masape';
+  cheminImage:any = ".\projet\frontmasape\src\app\nike.png";
 }
