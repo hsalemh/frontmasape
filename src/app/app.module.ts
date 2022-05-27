@@ -18,6 +18,7 @@ import {FooterComponent} from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { AideComponent } from './aide/aide.component';
 import { PanierComponent } from './panier/panier.component';
+import { ProduitsComponent } from './produits/produits.component';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { PanierComponent } from './panier/panier.component';
     HomeComponent,
     AideComponent,
     PanierComponent,
+    ProduitsComponent,
 // 7c9a1b3f8cfcd06c8d974c78df8cd72d9e20ac1d
 
   ],
