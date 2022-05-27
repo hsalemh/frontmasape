@@ -20,6 +20,7 @@ import { AideComponent } from './aide/aide.component';
 import { PanierComponent } from './panier/panier.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,8 +35,6 @@ import { PanierComponent } from './panier/panier.component';
     HomeComponent,
     AideComponent,
     PanierComponent,
-// 7c9a1b3f8cfcd06c8d974c78df8cd72d9e20ac1d
-
   ],
   imports: [
     BrowserModule,

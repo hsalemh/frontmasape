@@ -7,13 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SpaceclientComponent implements OnInit {
 info : any;
+pwd : any;
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  recupInfo(val : any){
+  recupInfoLogin(val : any){
     this.info = val;
+    console.log(this.info)
+  }
+
+  recupInfoPwd(val : any){
+    this.pwd = val;
     console.log(this.info)
   }
 }
