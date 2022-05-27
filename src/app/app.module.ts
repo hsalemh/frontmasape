@@ -16,6 +16,7 @@ import { PanierComponent } from './panier/panier.component';
 import { ProduitsComponent } from './produits/produits.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,

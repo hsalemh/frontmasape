@@ -31,7 +31,7 @@ export class ConnexionComponent implements OnInit {
         this.visible=true;
       }
     }
-  
+
     connexion(val : any){
       console.log('contenu de va ', val)
       this.http.post('http://localhost:8086/connexion', val).subscribe({
@@ -46,4 +46,8 @@ export class ConnexionComponent implements OnInit {
         error: (err) => {console.log(err);}
       });
     }
+
+  formulaire(){
+    'mmmmmmm'
+  }
 }

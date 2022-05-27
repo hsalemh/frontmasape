@@ -6,7 +6,7 @@
   <div class="row" id="row">
     <div class="col-sm-6">
       <div class="">
-        <form #data="ngForm" (ngSubmit)="recupInfo(data.value)">
+        <form #data="ngForm" (ngSubmit)="recupInfoLogin(data.value)">
           <div>
             <div class="card p-1 z-depth-3">
               <br>
@@ -58,17 +58,17 @@
     </div>
 
   </div>
-  <p> Vous êtes : {{ data.value | json}}</p>
+  <p> Vous êtes : {{ info | json}}</p>
   <hr>
 
 
-    <form #data="ngForm" (ngSubmit)="recupInfo(data.value)" >
+    <form #pwdandconfirm="ngForm" (ngSubmit)="recupInfoPwd(pwdandconfirm.value)" >
       <div class="row" id="row_change_pwd">
      <p> Comment changer le mot de passe</p>
         <div class="md-form col-5">
           <label>Nouveau mot de passe</label>
           <br>
-          <input type="text" name="newpwd" class="form-control" ngModel="">
+          <input type="text" name="newpwd" class="form-control" ngModel="" #datas>
         </div>
         <div class="md-form col-5">
           <label>Confirmer nouveau mot de passe</label>
@@ -78,11 +78,11 @@
 
         <div class="md-form col-2 mb-4">
           <br>
-          <button type="submit" class="btn btn-secondary btn-sn btn block rounded-pill">Enregistrer</button>
+          <button type="submit" class="btn btn-secondary btn-sn btn block rounded-pill" (click)="recupInfoPwd(datas.value)">Enregistrer</button>
         </div>
       </div>
 
     </form>
-    <p> Votre mot de passe est : {{ data.value | json}}</p>
+    <p> Votre mot de passe est : {{ pwd | json}}</p>
 </div>
 
