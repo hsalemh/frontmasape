@@ -1,12 +1,15 @@
 <div class="container-fluid">
-  <h1 class="text-center m-4">
-    <span id="bg_color">Mon Espace
+  <br>
+  <h1 class="text-center mt-4">
+    <span id="bg_color">
+      Mon Espace
     </span>
   </h1>
+  <br>
   <div class="row" id="row">
     <div class="col-sm-6">
       <div class="">
-        <form>
+        <form #data="ngForm" (ngSubmit)="recupInfo(data.value)">
           <div>
             <div class="card p-1 z-depth-3">
               <br>
@@ -58,10 +61,11 @@
     </div>
 
   </div>
+  <p> Vous êtes : {{ data.value | json}}</p>
   <hr>
 
 
-    <form>
+    <form #data="ngForm" (ngSubmit)="recupInfo(data.value)" >
       <div class="row" id="row_change_pwd">
      <p> Comment changer le mot de passe</p>
         <div class="md-form col-5">
@@ -82,5 +86,6 @@
       </div>
 
     </form>
+    <p> Votre mot de passe est : {{ data.value | json}}</p>
 </div>
 
