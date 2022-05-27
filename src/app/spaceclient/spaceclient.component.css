@@ -1,0 +1,14 @@
+
+.btn-secondary{
+  background-color: rgb(65,105,225);
+}
+.container-fluid{
+    padding-bottom: 100px;
+    position: relative
+
+}
+#bg_color{
+  background-color: rgb(65,105,225);
+  color: white;
+}
+

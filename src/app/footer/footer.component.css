@@ -1,0 +1,13 @@
+.navbar{
+padding: 0px;
+margin: 0;
+background-color:rgb(65,105,225);
+}
+.navbar a {
+    color: white !important;
+}
+.navbar h3 {
+    color: white !important;
+    text-decoration: underline;
+
+}
