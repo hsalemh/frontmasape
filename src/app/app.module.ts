@@ -20,10 +20,21 @@ import { AideComponent } from './aide/aide.component';
 import { PanierComponent } from './panier/panier.component';
 import { ProduitsComponent } from './produits/produits.component';
 
+<<<<<<< HEAD
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { ConnexionComponent } from './connexion/connexion.component';
+import { HomeComponent } from './home/home.component';
+=======
+>>>>>>> cde0d89ccbb5d95395386dbbfa267576c3a0e834
 
 @NgModule({
   declarations: [
     AppComponent,
+<<<<<<< HEAD
+    ConnexionComponent,
+    HomeComponent
+=======
 
     ConnexionComponent,
     SpaceclientComponent,
@@ -38,6 +49,7 @@ import { ProduitsComponent } from './produits/produits.component';
     ProduitsComponent,
 // 7c9a1b3f8cfcd06c8d974c78df8cd72d9e20ac1d
 
+>>>>>>> cde0d89ccbb5d95395386dbbfa267576c3a0e834
   ],
   imports: [
     BrowserModule,
