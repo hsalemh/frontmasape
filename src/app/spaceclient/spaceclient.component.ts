@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./spaceclient.component.css']
 })
 export class SpaceclientComponent implements OnInit {
-
+info : any;
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  recupInfo(val : any){
+    this.info = val;
+    console.log(this.info)
+  }
 }

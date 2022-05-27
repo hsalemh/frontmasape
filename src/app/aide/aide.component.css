@@ -1,0 +1,25 @@
+.container h3{
+    background-color:#4169E1 !important;
+    text-align: center;
+}
+.container h4{
+    text-align: justify;
+    text-decoration: underline;
+}
+.card{
+    background-color:#f1f1f1;
+}
+.card-2{
+    
+    height: 500px;
+    padding: 30px;
+    border-radius: 5px;
+}
+.card-1{
+    height: 500px;
+    padding: 30px;
+    border-radius: 5px;
+}
+h5{
+    color: red !important;
+}
