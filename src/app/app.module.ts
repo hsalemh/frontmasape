@@ -29,8 +29,8 @@ import { ProduitsComponent } from './produits/produits.component';
     HomeComponent,
     AideComponent,
     PanierComponent,
+
     ProduitsComponent,
-// 7c9a1b3f8cfcd06c8d974c78df8cd72d9e20ac1d
 
   ],
   imports: [
