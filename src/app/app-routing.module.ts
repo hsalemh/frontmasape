@@ -5,6 +5,7 @@ import { ConnexionComponent } from './connexion/connexion.component';
 import { HomeComponent } from './home/home.component';
 import { NosvetementComponent } from './nosvetement/nosvetement.component';
 import { PanierComponent } from './panier/panier.component';
+import { ProduitsComponent } from './produits/produits.component';
 import { QsnComponent } from './qsn/qsn.component';
 import {SpaceclientComponent} from './spaceclient/spaceclient.component';
 
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path:'home', component : HomeComponent},
   {path:'aide', component : AideComponent},
   {path:'panier',component: PanierComponent},
+  {path:'produits',component: ProduitsComponent},
 ];
 
 @NgModule({
